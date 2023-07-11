@@ -214,4 +214,4 @@ class Fchk:
 		'''
 		with open(output_file,'wb') as f:
 			pickle.dump(self,f)
-		print('Outputted {0}'.format(output_file))
+		print('Successfully outputted {0}'.format(output_file))
